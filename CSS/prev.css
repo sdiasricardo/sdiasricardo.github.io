@@ -1,0 +1,102 @@
+h1{
+    color: red;
+}
+body{
+    text-align: center;
+    background-color: #2C2E43;
+}
+
+h2, h3{
+    color: #FFD523;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+p{
+    color: #B2B1B9;
+}
+
+hr{
+    width: 80%;
+    border-top: 2px solid #B2B1B9;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+a{
+    color: #B2B1B9;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #B2B1B9;
+}
+
+a:hover{
+    color: #FFD523;
+}
+
+/* ---------------------------------Classes----------------------------- */
+.top-container{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    min-width: 1000px;
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    margin-left: 2%;
+    transform: translate(0, -100%);
+}
+
+
+.profpic{
+    width: 30%;
+}
+
+.middle-container{
+    padding-bottom: 0px;
+}
+
+.skills{
+    text-align: center;
+}
+
+.skill-row{
+    width: 80%;
+    margin: 5% auto;
+    text-align: justify;
+    line-height: 1.5;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+
+.coding{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.softskills{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.language{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+/* ---------------------------------Classes----------------------------- */
