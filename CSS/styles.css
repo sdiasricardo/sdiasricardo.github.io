@@ -1,7 +1,7 @@
 /* ------ General Sets ------- */
 
 body{
-    background-color: #E6DDC4 ; 
+    background-color: #181D31 ; 
     color: #678983 !important;
     font-family: 'Sono', sans-serif;
     
@@ -38,7 +38,7 @@ h3{
 @media (max-width: 1028px){
     #navbar{
         font-size: 18px;
-        padding: 1% 2%;
+        padding: 2% 2%;
     }
 }
 
