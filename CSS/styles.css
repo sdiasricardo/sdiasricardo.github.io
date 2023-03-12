@@ -7,12 +7,19 @@ body{
     
 }
 
+@media (min-width: 992px) {
+    body{
+        margin: auto !important;
+    }
+}
+
 h3{
     color: aquamarine;
 }
 
 .container-fluid{
     text-align: center;
+    max-width: 2000px;
 }
 
 .colored-section{
@@ -31,6 +38,7 @@ h3{
 @media (max-width: 1028px){
     #navbar{
         font-size: 18px;
+        padding: 1% 2%;
     }
 }
 
@@ -52,6 +60,7 @@ h3{
     padding-top: 5%;
     padding-bottom: 7%;
     text-align: justify;
+    padding-right: 3%;
 }
 
 
@@ -61,10 +70,10 @@ h3{
         padding-bottom: 6%;
     }
 
-    h3{
-        text-align: center;
+    #aboutme{
+        padding-right: 2%;
     }
-    
+
 }
 
 #text {
