@@ -1,17 +1,15 @@
+/* ------ General Sets ------- */
+
 body{
     background-color: #E6DDC4 ; 
     color: #678983 !important;
+    font-family: 'Sono', sans-serif;
+    
 }
 
-
-.nav-link.active{
-    color: #678983 !important;
+h3{
+    color: aquamarine;
 }
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(103,137,131, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 
 .container-fluid{
     text-align: center;
@@ -21,6 +19,60 @@ body{
     background-color: #181D31;
 }
 
-.fstdiv{
+.colored-section{
     background-color: #181D31;
 }
+
+/* --------Navbar --------*/
+#navbar{
+    padding: 1% 10%;
+}
+
+@media (max-width: 1028px){
+    #navbar{
+        font-size: 18px;
+    }
+}
+
+.nav-link{
+    color: #678983 !important;
+}
+
+.nav-link:hover{
+    color: aquamarine !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(127,255,212, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* -------- About me ---------*/
+#aboutme{
+    padding-top: 5%;
+    padding-bottom: 7%;
+    text-align: justify;
+}
+
+
+@media (max-width: 992px){
+    #image{
+        padding-top: 3%;
+        padding-bottom: 6%;
+    }
+
+    h3{
+        text-align: center;
+    }
+    
+}
+
+#text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+
+
