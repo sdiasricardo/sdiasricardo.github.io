@@ -30,6 +30,13 @@ h3{
     background-color: #181D31;
 }
 
+/* ------ White section -------*/
+.white-section{
+    background-color: #F0E9D2;
+}
+
+
+
 /* --------Navbar --------*/
 #navbar{
     padding: 1% 10%;
@@ -47,18 +54,25 @@ h3{
 }
 
 .nav-link:hover{
-    color: aquamarine !important;
+    color: yellow !important;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(127,255,212, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+#home{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
 
 /* -------- About me ---------*/
+
 #aboutme{
-    padding-top: 5%;
-    padding-bottom: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: justify;
     padding-right: 3%;
 }
