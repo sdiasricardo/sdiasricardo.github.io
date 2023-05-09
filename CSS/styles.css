@@ -1,8 +1,23 @@
+/* ------ Infos------- */
+
+
+/* 
+Colors:
+    dark: 000000
+    light dark: 181818
+    gray: 678983
+    brownish: 735F32
+    goldenish: C69749
+    red: 231, 97, 97
+*/
+
+
 /* ------ General Sets ------- */
 
 body{
-    background-color: #181D31 ; 
-    color: #678983 !important;
+    background-color: #000000 ; 
+    color: #F0E9D2 !important;
+    opacity: .8;
     font-family: 'Sono', sans-serif;
     
 }
@@ -11,10 +26,19 @@ body{
     body{
         margin: auto !important;
     }
+
+    
 }
 
-h3{
-    color: aquamarine;
+hr {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 80%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(231, 97, 97, 0), rgba(231, 97, 97, 0.75), rgba(231, 97, 97, 0));
+    opacity: .7;
 }
 
 .container-fluid{
@@ -22,22 +46,18 @@ h3{
     max-width: 2000px;
 }
 
-.colored-section{
-    background-color: #181D31;
-}
+/* ------ Colored section -------*/
 
 .colored-section{
-    background-color: #181D31;
+    background-color: #000000;
 }
 
-/* ------ White section -------*/
-.white-section{
-    background-color: #F0E9D2;
-}
+
 
 
 
 /* --------Navbar --------*/
+
 #navbar{
     padding: 1% 10%;
 }
@@ -50,16 +70,21 @@ h3{
 }
 
 .nav-link{
-    color: #678983 !important;
+    color: #F0E9D2 !important;
+    opacity: .7 !important;
 }
 
 .nav-link:hover{
-    color: yellow !important;
+    color: rgba(231, 97, 97) !important;
+    opacity: 1 !important;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(127,255,212, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+
+
 
 /* --------Home --------*/
 
@@ -78,17 +103,13 @@ h3{
     transform: translate(-50%, -50%);
 }
 
+
+
+
 /* -------- About me ---------*/
 
-#aboutme{
-    padding-top: 3%;
-    padding-bottom: 3%;
-    text-align: justify;
-    padding-right: 3%;
-}
 
-
-@media (max-width: 992px){
+@media (max-width: 1028px){
     #image{
         padding-top: 3%;
         padding-bottom: 6%;
@@ -100,12 +121,31 @@ h3{
 
 }
 
+#aboutme{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
+    padding-right: 3%;
+}
+
 #text2 {
     text-align: justify;
     text-justify: inter-word;
+    font-size: large;
 }
 
 
 
+
+
+/* -------- Education ---------*/
+
+/* -------- Skills ---------*/
+
+/* -------- Experiences ---------*/
+
+/* -------- Projects ---------*/
+
+/* -------- Links ---------*/
 
 
