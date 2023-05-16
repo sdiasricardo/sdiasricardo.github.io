@@ -271,7 +271,7 @@ ul.timeline-list li:before { /* balls */
 }
 
 .timeline_content span {
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 500;
 	font-family: poppins;
 	color: rgba(231, 97, 97, 1);
@@ -301,28 +301,12 @@ ul.timeline-list li:before { /* balls */
 	}
 
 	ul.timeline-list:before { /* line */
-		position: absolute;
-		content: "";
-		width: 2px;
-		height: 100%;
-		background-color: rgba(231, 97, 97, 1);
 		left: 2%;
-		top: 0;
-		-webkit-transform: translateX(-50%);
-				transform: translateX(-50%);
 	}
 	
 	ul.timeline-list li:before { /* balls */
-		position: absolute;
-		content: "";
-		width: 25px;
-		height: 25px;
-		background-color: rgba(231, 97, 97, 1);
+		
 		left: 2%;
-		top: 50%;
-		-webkit-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-		border-radius: 50%;
 	}
 
 	
