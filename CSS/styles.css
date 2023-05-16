@@ -283,7 +283,7 @@ ul.timeline-list li:before { /* balls */
 }
 
 
-@media (min-width: 10px){
+@media (max-width: 992px){
     ul.timeline-list li:nth-child(2n) .timeline_content {
 		float: left;
 		text-align: left;
