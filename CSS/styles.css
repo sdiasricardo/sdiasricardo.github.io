@@ -23,6 +23,17 @@ body{
     
 }
 
+
+.section-title h4 {
+	text-transform: capitalize;
+	font-size: 40px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: rgba(231, 97, 97, 1);
+}
+
 @media (min-width: 992px) {
     body{
         margin: auto !important;
@@ -159,15 +170,7 @@ h1{
 	color: #777;
 	font-size: 16px;
 }
-.section-title h4 {
-	text-transform: capitalize;
-	font-size: 40px;
-	position: relative;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	font-weight: 600;
-	color: rgba(231, 97, 97, 1);
-}
+
 /* .section-title h4:before {
 	position: absolute;
 	content: "";
@@ -189,12 +192,15 @@ h1{
 	margin-left: -5px;
 	border-radius: 50%;
 } */
+
 ul.timeline-list {
 	position: relative;
 	margin-bottom: 0;
 	padding: 0
 }
-ul.timeline-list:before {
+
+
+ul.timeline-list:before { /* line */
 	position: absolute;
 	content: "";
 	width: 2px;
@@ -205,15 +211,20 @@ ul.timeline-list:before {
 	-webkit-transform: translateX(-50%);
 	        transform: translateX(-50%);
 }
+
 ul.timeline-list li {
 	position: relative;
 	clear: both;
 	display: table;
 }
+
+
 .timeline_content {
 	border: 2px solid rgba(231, 97, 97, 1);
-	background-color:black
+	background-color:black;
 }
+
+
 ul.timeline-list li .timeline_content {
 	width: 45%;
 	color: #333;
@@ -221,10 +232,12 @@ ul.timeline-list li .timeline_content {
 	float: left;
 	text-align: right;
 }
+
 ul.timeline-list li:nth-child(2n) .timeline_content {
 	float: right;
 	text-align: left;
 }
+
 .timeline_content h4 {
 	font-size: 22px;
 	font-weight: 600;
@@ -244,7 +257,7 @@ ul.timeline-list li:nth-child(2n) .timeline_content {
 }
 
 
-ul.timeline-list li:before {
+ul.timeline-list li:before { /* balls */
 	position: absolute;
 	content: "";
 	width: 25px;
@@ -256,6 +269,7 @@ ul.timeline-list li:before {
 	        transform: translate(-50%, -50%);
 	border-radius: 50%;
 }
+
 .timeline_content span {
 	font-size: 18px;
 	font-weight: 500;
@@ -266,6 +280,51 @@ ul.timeline-list li:before {
 
 .timeline-list li{
 	margin-bottom: 30px;
+}
+
+
+@media (min-width: 10px){
+    ul.timeline-list li:nth-child(2n) .timeline_content {
+		float: left;
+		text-align: left;
+		margin-left: 60px;
+		width: 90%;
+	}
+
+	ul.timeline-list li:nth-child(2n+1) .timeline_content {
+		float: left;
+		text-align: left;
+		margin-left: 60px;
+		width: 90%;
+	}
+
+	ul.timeline-list:before { /* line */
+		position: absolute;
+		content: "";
+		width: 2px;
+		height: 100%;
+		background-color: rgba(231, 97, 97, 1);
+		left: 2%;
+		top: 0;
+		-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+	}
+	
+	ul.timeline-list li:before { /* balls */
+		position: absolute;
+		content: "";
+		width: 25px;
+		height: 25px;
+		background-color: rgba(231, 97, 97, 1);
+		left: 2%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+		border-radius: 50%;
+	}
+
+	
+
 }
 
 /* -------- Skills ---------*/
