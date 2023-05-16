@@ -287,15 +287,17 @@ ul.timeline-list li:before { /* balls */
     ul.timeline-list li:nth-child(2n) .timeline_content {
 		float: left;
 		text-align: left;
-		margin-left: 60px;
+		margin-left: 8%;
 		width: 90%;
+		padding-right: 5%;
 	}
 
 	ul.timeline-list li:nth-child(2n+1) .timeline_content {
 		float: left;
 		text-align: left;
-		margin-left: 60px;
+		margin-left: 8%;
 		width: 90%;
+		padding-right: 5%;
 	}
 
 	ul.timeline-list:before { /* line */
