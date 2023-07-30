@@ -310,3 +310,11 @@ svg:hover{
 	color: rgba(231, 97, 97, 1);
 }
 
+@media (max-width: 992px){
+    svg{
+		width: 30px;
+		height: 30px;
+	}
+	
+
+}
