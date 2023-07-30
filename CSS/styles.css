@@ -90,7 +90,7 @@ h1{
 
 .nav-link{
     color: #F0E9D2 !important;
-    opacity: .7 !important;
+    opacity: 1 !important;
 }
 
 .nav-link:hover{
@@ -99,7 +99,7 @@ h1{
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231,97, 97, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231,97, 97, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 
@@ -156,7 +156,7 @@ h1{
 
 
 
-/* -------- Education ---------*/
+/* -------- Timeline ---------*/
 .pt-100{
     padding-top:100px;
 }
@@ -170,28 +170,6 @@ h1{
 	color: #777;
 	font-size: 16px;
 }
-
-/* .section-title h4:before {
-	position: absolute;
-	content: "";
-	width: 60px;
-	height: 2px;
-	background-color: rgba(231, 97, 97, 1);
-	bottom: 0;
-	left: 50%;
-	margin-left: -30px;
-} */
-/* .section-title h4:after {
-	position: absolute;
-	background-color: rgba(231, 97, 97, 1); 
-	content: "";
-	width: 10px;
-	height: 10px;
-	bottom: -4px;
-	left: 50%;
-	margin-left: -5px;
-	border-radius: 50%;
-} */
 
 ul.timeline-list {
 	position: relative;
@@ -319,6 +297,16 @@ ul.timeline-list li:before { /* balls */
 
 /* -------- Projects ---------*/
 
-/* -------- Links ---------*/
+/* -------- Footer ---------*/
 
+svg{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	color: #F0E9D2;
+}
+
+svg:hover{
+	color: rgba(231, 97, 97, 1);
+}
 
