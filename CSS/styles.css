@@ -300,8 +300,8 @@ ul.timeline-list li:before { /* balls */
 /* -------- Footer ---------*/
 
 svg{
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
 	margin: 10px;
 	color: #F0E9D2;
 }
@@ -312,8 +312,8 @@ svg:hover{
 
 @media (max-width: 992px){
     svg{
-		width: 20px;
-		height: 20px;
+		width: 30px;
+		height: 30px;
 	}
 	
 
