@@ -13,7 +13,7 @@ Colors:
 */
 
 /*
-Codepen filer: https://codepen.io/sosuke/pen/Pjoqqp 
+Codepen filter: https://codepen.io/sosuke/pen/Pjoqqp 
  */
 
 
@@ -149,11 +149,11 @@ h1{
     text-justify: inter-word;
 }
 
+/* -------- Skills ---------*/
 
 
 
-
-/* -------- Timeline ---------*/
+/* -------- Timelines ---------*/
 .pt-100{
     padding-top:100px;
 }
@@ -288,48 +288,22 @@ ul.timeline-list li:before { /* balls */
 
 }
 
-/* -------- Skills ---------*/
-
-/* -------- Experiences ---------*/
-
 /* -------- Projects ---------*/
 
 /* -------- Footer ---------*/
 
-/* svg{
-	width: 40px;
-	height: 40px;
-	margin: 10px;
-	color: #F0E9D2;
-	cursor: pointer;
-}
-
-svg:hover{
-	color: rgba(231, 97, 97, 1);
-}
-
-
- */
-
-/* #icon{
-	width: 40px;
-	height: 40px;
-	margin: 10px;
-	fill: #F0E9D2;
-	cursor: pointer;
-} */
-
-#icon:hover{
-	filter: invert(48%) sepia(13%) saturate(2258%) hue-rotate(312deg) brightness(101%) contrast(98%);
-	cursor: pointer;
-}
-
 #icon{
 	width: 40px;
 	height: 40px;
-	margin: 5px;
+	margin-left: 1%;
+	margin-right: 1%;
 	border: 10px;
 	filter: invert(95%) sepia(5%) saturate(698%) hue-rotate(5deg) brightness(101%) contrast(97%);
+	cursor: pointer;
+}
+
+#icon:hover{
+	filter: invert(48%) sepia(13%) saturate(2258%) hue-rotate(312deg) brightness(101%) contrast(98%);
 	cursor: pointer;
 }
 
