@@ -296,7 +296,7 @@ ul.timeline-list li:before { /* balls */
 
 /* -------- Footer ---------*/
 
-svg{
+/* svg{
 	width: 40px;
 	height: 40px;
 	margin: 10px;
@@ -309,35 +309,35 @@ svg:hover{
 }
 
 
-@media (max-width: 992px){
-    svg{
-		width: 30px;
-		height: 30px;
-	}
-	
+ */
 
-}
-
-#icon{
+/* #icon{
 	width: 40px;
 	height: 40px;
 	margin: 10px;
 	fill: #F0E9D2;
 	cursor: pointer;
-}
+} */
 
-#img2:hover{
-	width: 40px;
-	height: 40px;
-	border: 10px;
+#icon:hover{
 	filter: invert(48%) sepia(13%) saturate(2258%) hue-rotate(312deg) brightness(101%) contrast(98%);
 	cursor: pointer;
 }
 
-#img2{
+#icon{
 	width: 40px;
 	height: 40px;
+	margin: 5px;
 	border: 10px;
-	filter: invert(94%) sepia(20%) saturate(266%) hue-rotate(340deg) brightness(101%) contrast(88%);
+	filter: invert(95%) sepia(5%) saturate(698%) hue-rotate(5deg) brightness(101%) contrast(97%);
 	cursor: pointer;
+}
+
+@media (max-width: 992px){
+    #icon{
+		width: 30px;
+		height: 30px;
+	}
+	
+
 }
