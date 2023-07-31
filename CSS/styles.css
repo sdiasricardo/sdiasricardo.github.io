@@ -12,6 +12,10 @@ Colors:
 	777
 */
 
+/*
+Codepen filer: https://codepen.io/sosuke/pen/Pjoqqp 
+ */
+
 
 /* ------ General Sets ------- */
 
@@ -42,16 +46,9 @@ body{
     
 }
 
-/* hr {
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    width: 80%;
-    border: 0;
-    height: 3px;
-    background-image: linear-gradient(to right, rgba(231, 97, 97, 0), rgba(231, 97, 97, 1), rgba(231, 97, 97, 0));
-    opacity: .7;
-} */
+a:link, a:visited {
+	text-decoration: none;
+}
 
 h1{
     color: rgba(231, 97, 97, 1);
@@ -304,11 +301,13 @@ svg{
 	height: 40px;
 	margin: 10px;
 	color: #F0E9D2;
+	cursor: pointer;
 }
 
 svg:hover{
 	color: rgba(231, 97, 97, 1);
 }
+
 
 @media (max-width: 992px){
     svg{
@@ -317,4 +316,28 @@ svg:hover{
 	}
 	
 
+}
+
+#icon{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	fill: #F0E9D2;
+	cursor: pointer;
+}
+
+#img2:hover{
+	width: 40px;
+	height: 40px;
+	border: 10px;
+	filter: invert(48%) sepia(13%) saturate(2258%) hue-rotate(312deg) brightness(101%) contrast(98%);
+	cursor: pointer;
+}
+
+#img2{
+	width: 40px;
+	height: 40px;
+	border: 10px;
+	filter: invert(94%) sepia(20%) saturate(266%) hue-rotate(340deg) brightness(101%) contrast(88%);
+	cursor: pointer;
 }
