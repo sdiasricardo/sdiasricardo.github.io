@@ -155,8 +155,6 @@ h1{
 
 /* -------- Skills ---------*/
 #skill{
-	border: 2px rgba(231, 97, 97, 1) solid;
-	top: 0;
 	padding-top: 1.2%;
 	padding-bottom: 0.1%;
 	padding-left: 2%;
@@ -164,7 +162,7 @@ h1{
 	margin-top: 0;
 	margin-bottom: 0;
 	transition: transform .2s;
-	position: relative;
+	display: inline-block;
 }
 
 
