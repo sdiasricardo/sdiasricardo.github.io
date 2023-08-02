@@ -12,6 +12,8 @@ Colors:
 	777
 */
 
+
+
 /*
 Codepen filter for svg: https://codepen.io/sosuke/pen/Pjoqqp 
  */
@@ -166,15 +168,17 @@ h1{
 }
 
 
-
-
-
 #skill h5{
 	font-weight: 550;
 	font-size: 150%;
 }
 
-#starfill, #star{
+#skill h4{
+	font-weight: 600;
+	font-size: 160%;
+}
+
+#starfill, #star, #starhalf{
 	color: rgba(231, 97, 97, 1);
 	font-size: 125%;
 }
