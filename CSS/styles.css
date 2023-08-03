@@ -66,10 +66,10 @@ h1{
     max-width: 2000px;
 }
 
-/* section{
-	margin-top: 20px;
-	margin-bottom: 20px;
-} */
+section{
+	margin-bottom: 1%;
+	padding-bottom: 0;
+}
 
 
 /* --------Navbar --------*/
