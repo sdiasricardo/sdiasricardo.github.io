@@ -155,8 +155,14 @@ h1{
 	margin-top: 0px;
 }
 
+
 /* -------- Skills ---------*/
-#skill{
+#starfill, #star, #starhalf{
+	color: rgba(231, 97, 97, 1);
+	font-size: 125%;
+}
+
+#skill, #skill-title{
 	padding-top: 1.2%;
 	padding-bottom: 0.1%;
 	padding-left: 2%;
@@ -164,37 +170,49 @@ h1{
 	margin-top: 0;
 	margin-bottom: 0;
 	transition: transform .2s;
-	display: inline-block;
+	margin: 0.5%;
 }
 
+#skill #label{
+	padding-left: 0;
+}
+#skill-title #label{
+	padding-left: 0;
+}
+
+#skill #rate{
+	text-align: right;
+	padding: 0 0 0 0;
+}
 
 #skill h5{
 	font-weight: 550;
 	font-size: 150%;
 }
 
-#skill h4{
+#skill-title h4{
 	font-weight: 600;
 	font-size: 160%;
 }
 
-#starfill, #star, #starhalf{
-	color: rgba(231, 97, 97, 1);
-	font-size: 125%;
-}
-
-
 #skill:hover{
 	outline: 2px rgba(231, 97, 97, 1) solid;
 	transform: scale(1.01);
-
 	font-weight: 600;
 }
 
-
-
-
-
+@media (max-width: 992px){
+	#skill h5{
+		font-size: 120%;
+	}
+	
+	#skill h4{
+		font-size: 130%;
+	}
+	#skill-title{
+		margin-top: 1%;
+	}
+}
 
 
 /* -------- Timelines ---------*/
